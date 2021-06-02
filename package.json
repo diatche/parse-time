@@ -1,0 +1,17 @@
+{
+    "name": "time-parse",
+    "version": "0.1.0",
+    "description": "A utility for parsing time duration and time of the day strings.",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "repository": "https://github.com/diatche/time-parse.git",
+    "author": "Pavel Diatchenko <diatche@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "test": "jest",
+        "coverage": "jest --coverage"
+    },
+    "devDependencies": {
+        "jest": "^27.0.3"
+    }
+}
