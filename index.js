@@ -64,7 +64,11 @@ function parseTime(time, options) {
     if (meridiem.length !== 0 && totalMs >= kMsInDay) {
         return undefined;
     }
-    if (options?.max && totalMs >= options.max) {
+    if (
+        options &&
+        typeof options.max !== 'undefined' &&
+        totalMs >= options.max
+    ) {
         return undefined;
     }
     return {
