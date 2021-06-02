@@ -7,6 +7,17 @@
     "repository": "https://github.com/diatche/parse-time.git",
     "author": "Pavel Diatchenko <diatche@gmail.com>",
     "license": "MIT",
+    "keywords": [
+        "parse",
+        "time",
+        "time-parse",
+        "parser",
+        "am",
+        "pm",
+        "hour",
+        "minute",
+        "second"
+    ],
     "scripts": {
         "test": "jest",
         "coverage": "jest --coverage"
