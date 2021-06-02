@@ -1,6 +1,6 @@
 # parse-time
 
-[![Node.js CI](https://github.com/diatche/time-parse/actions/workflows/node.js.yml/badge.svg)](https://github.com/diatche/time-parse/actions/workflows/node.js.yml)
+[![Node.js CI](https://github.com/diatche/parse-time/actions/workflows/node.js.yml/badge.svg)](https://github.com/diatche/parse-time/actions/workflows/node.js.yml)
 
 A utility for parsing time duration and time of the day strings.
 
@@ -9,13 +9,13 @@ No external dependencies.
 ## Installation
 
 ```sh
-yarn add time-parse
+yarn add @diatche/parse-time
 ```
 
 Or with npm:
 
 ```sh
-npm install --save time-parse
+npm install --save @diatche/parse-time
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ npm install --save time-parse
 The main method `parseTime()` (`timeParse()` is an alias) parses human input time values into an object containing the hours, minutes and total milliseconds from the start of the day.
 
 ```javascript
-import { parseTime } from 'time-parse';
+import { parseTime } from 'parse-time';
 const lunchtime = parseTime('12:30 pm');
 const { hours, minutes, totalMs } = lunchtime;
 ```
@@ -45,7 +45,7 @@ assert(typeof invalidTime === 'undefined');
 Or use the `parseTimeOfDay()` method to limit the time to 24 hours. This is useful when parsing the date and time separately.
 
 ```javascript
-import { parseTimeOfDay } from 'time-parse';
+import { parseTimeOfDay } from 'parse-time';
 const { hours, minutes, totalMs } = parseTimeOfDay('09:00');
 ```
 

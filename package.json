@@ -1,10 +1,10 @@
 {
-    "name": "time-parse",
+    "name": "@diatche/parse-time",
     "version": "0.1.0",
     "description": "A utility for parsing time duration and time of the day strings.",
     "main": "index.js",
     "types": "index.d.ts",
-    "repository": "https://github.com/diatche/time-parse.git",
+    "repository": "https://github.com/diatche/parse-time.git",
     "author": "Pavel Diatchenko <diatche@gmail.com>",
     "license": "MIT",
     "scripts": {
