@@ -107,3 +107,8 @@ dist
 temp
 coverage/*
 !coverage/*.txt
+tests/
+package-lock.json
+.vscode/
+.github/
+.prettierrc.json
