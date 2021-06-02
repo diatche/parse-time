@@ -1,4 +1,6 @@
-# parseTime
+# parse-time
+
+[![Node.js CI](https://github.com/diatche/time-parse/actions/workflows/node.js.yml/badge.svg)](https://github.com/diatche/time-parse/actions/workflows/node.js.yml)
 
 A utility for parsing time duration and time of the day strings.
 
